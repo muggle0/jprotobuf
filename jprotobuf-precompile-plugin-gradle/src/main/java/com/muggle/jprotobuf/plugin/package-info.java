@@ -1,0 +1,1 @@
+package com.muggle.jprotobuf.plugin;
