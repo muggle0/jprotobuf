@@ -21,7 +21,7 @@
 	<modules>
 		<module>jprotobuf</module>
 		<module>jprotobuf-precompile-plugin</module>
-		<module>jprotobuf-precompile-plugin-gradle</module>
+<!--		<module>jprotobuf-precompile-plugin-gradle</module>-->
 		<module>jprotobuf-rpc-common</module>
 		<module>Jprotobuf-rpc-socket</module>
 		<module>jprotobuf-android</module>
@@ -116,7 +116,7 @@
 					</configuration>
 				</plugin>
 				<plugin>
-					<groupId>com.baidu</groupId>
+					<groupId>com.muggle</groupId>
 					<artifactId>jprotobuf-precompile-plugin</artifactId>
 					<version>${rversion}</version>
 					<configuration>

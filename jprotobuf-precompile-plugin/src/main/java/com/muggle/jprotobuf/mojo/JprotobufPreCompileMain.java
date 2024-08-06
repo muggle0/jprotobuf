@@ -1,5 +1,5 @@
 /**
- * Copyright (C) 2017 Baidu, Inc. All Rights Reserved.
+ * Copyright (C) 2017 muggle, Inc. All Rights Reserved.
  */
 package com.muggle.jprotobuf.mojo;
 
@@ -16,17 +16,17 @@ import org.apache.commons.io.FileUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.baidu.bjf.remoting.protobuf.ProtobufIDLGenerator;
-import com.baidu.bjf.remoting.protobuf.ProtobufProxy;
-import com.baidu.bjf.remoting.protobuf.annotation.Protobuf;
-import com.baidu.bjf.remoting.protobuf.annotation.ProtobufClass;
-import com.baidu.bjf.remoting.protobuf.code.ICodeGenerator;
-import com.baidu.bjf.remoting.protobuf.code.TemplateCodeGenerator;
-import com.baidu.bjf.remoting.protobuf.utils.ClassHelper;
-import com.baidu.bjf.remoting.protobuf.utils.FieldUtils;
-import com.baidu.bjf.remoting.protobuf.utils.JDKCompilerHelper;
-import com.baidu.bjf.remoting.protobuf.utils.StringUtils;
-import com.baidu.bjf.remoting.protobuf.utils.compiler.JdkCompiler;
+import com.muggle.bjf.remoting.protobuf.ProtobufIDLGenerator;
+import com.muggle.bjf.remoting.protobuf.ProtobufProxy;
+import com.muggle.bjf.remoting.protobuf.annotation.Protobuf;
+import com.muggle.bjf.remoting.protobuf.annotation.ProtobufClass;
+import com.muggle.bjf.remoting.protobuf.code.ICodeGenerator;
+import com.muggle.bjf.remoting.protobuf.code.TemplateCodeGenerator;
+import com.muggle.bjf.remoting.protobuf.utils.ClassHelper;
+import com.muggle.bjf.remoting.protobuf.utils.FieldUtils;
+import com.muggle.bjf.remoting.protobuf.utils.JDKCompilerHelper;
+import com.muggle.bjf.remoting.protobuf.utils.StringUtils;
+import com.muggle.bjf.remoting.protobuf.utils.compiler.JdkCompiler;
 
 import edu.emory.mathcs.backport.java.util.Arrays;
 import jodd.io.findfile.ClassScanner;
