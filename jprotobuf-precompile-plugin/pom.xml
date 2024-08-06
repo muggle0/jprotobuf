@@ -8,7 +8,7 @@
 		<version>${rversion}</version>
 		<relativePath>../pom.xml</relativePath>
 	</parent>
-	<groupId>com.baidu</groupId>
+	<groupId>com.muggle</groupId>
 	<artifactId>jprotobuf-precompile-plugin</artifactId>
 	<version>${rversion}</version>
 	<packaging>maven-plugin</packaging>
@@ -16,7 +16,6 @@
 	<description>This plugin is to do compile jprotobuf pojo class after compile execution</description>
 
 	<properties>
-		<parent.version>2.4.21-M-SNAPSHOT</parent.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<java.version>1.8</java.version>
 		<junit.version>4.10</junit.version>
@@ -60,9 +59,9 @@
 			<version>3.5.2</version>
 		</dependency>
 		<dependency>
-			<groupId>com.baidu</groupId>
+			<groupId>com.muggle</groupId>
 			<artifactId>jprotobuf</artifactId>
-			<version>1.13.0</version>
+			<version>${rversion}</version>
 			<scope>compile</scope>
 		</dependency>
 		<dependency>

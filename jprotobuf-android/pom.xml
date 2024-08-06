@@ -12,13 +12,13 @@
 		<relativePath>../pom.xml</relativePath>
 	</parent>
 
-	<groupId>com.baidu</groupId>
+	<groupId>com.muggle</groupId>
 	<artifactId>jprotobuf-android</artifactId>
 	<version>1.1.3</version>
 
 	<name>jprotobuf-android</name>
 	<description>A very useful utility library for java programmer using google protobuf.</description>
-	<url>https://github.com/jhunters/jprotobuf/</url>
+	<url>http://github.com/muggle0/jprotobuf</url>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -32,13 +32,13 @@
 
 	<issueManagement>
 		<system>GitHub Issues</system>
-		<url>https://github.com/jhunters/jprotobuf/issues</url>
+		<url>https://github.com/muggle0/jprotobuf/issues</url>
 	</issueManagement>
 
 	<scm>
 		<connection>scm:git:git://github.com/jhunters/jprotobuf.git</connection>
 		<developerConnection>scm:git:git@github.com:jhunters/jprotobuf.git</developerConnection>
-		<url>http://github.com/jhunters/jprotobuf</url>
+		<url>http://github.com/muggle0/jprotobuf</url>
 	</scm>
 
 	<licenses>
@@ -50,8 +50,8 @@
 	</licenses>
 
 	<organization>
-		<name>Baidu, Inc.</name>
-		<url>http://baidu.com</url>
+		<name>muggle, Inc.</name>
+		<url>http://muggle.com</url>
 	</organization>
 
 	<dependencies>
@@ -87,12 +87,6 @@
 					<target>${java.version}</target>
 				</configuration>
 			</plugin>
-			<!-- <plugin> <groupId>org.apache.maven.plugins</groupId> <artifactId>maven-assembly-plugin</artifactId> 
-				<configuration> <descriptorRefs> <descriptorRef>jar-with-dependencies</descriptorRef> 
-				</descriptorRefs> <archive> <manifest> <mainClass>com.baidu.bjf.remoting.protobuf.command.Main</mainClass> 
-				</manifest> </archive> </configuration> <executions> <execution> <phase>package</phase> 
-				<goals> <goal>single</goal> </goals> </execution> </executions> </plugin> -->
-
 			<plugin>
 				<artifactId>maven-source-plugin</artifactId>
 				<version>2.1</version>
