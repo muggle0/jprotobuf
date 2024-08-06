@@ -17,3 +17,4 @@ jprotobuf/target
 /.settings/
 /benchmark/
 /.externalToolBuilders/
+**/target
